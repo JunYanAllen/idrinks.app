@@ -1,3 +1,7 @@
+body {
+    position: relative; 
+}
+
 .dish-control-holder{
     background-color: var(--colorWhite);
     box-shadow: 0 0.2rem 1rem rgb(0 0 0 / 12%);
@@ -5,13 +9,6 @@
     position: sticky;
     width: 100%;
     z-index: 10;
-}
-
-.nav-holder{
-    flex: 1 1 auto;
-    overflow-x: auto;
-    position: relative;
-    
 }
 
 .nav-item{
