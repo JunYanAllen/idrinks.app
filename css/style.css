@@ -1,0 +1,28 @@
+.dish-control-holder{
+    background-color: var(--colorWhite);
+    box-shadow: 0 0.2rem 1rem rgb(0 0 0 / 12%);
+    overflow: hidden;
+    position: sticky;
+    width: 100%;
+    z-index: 10;
+}
+
+.nav-holder{
+    flex: 1 1 auto;
+    overflow-x: auto;
+    position: relative;
+    
+}
+
+.nav-item{
+    height: 80px;
+    letter-spacing: .1px;
+    line-height: 64px;
+    overflow: hidden;
+    position: relative;
+    text-decoration: none;
+}
+
+.neutral-secondary{
+    color: #767676;;
+}
